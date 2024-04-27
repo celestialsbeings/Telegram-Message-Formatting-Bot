@@ -3,7 +3,8 @@ from urllib.parse import urlparse
 from telegram import ParseMode
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-
+from keep_alive import keep_alive
+keep_alive()
 # User data file
 USER_DATA_FILE = "user_data.txt"
 
