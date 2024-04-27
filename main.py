@@ -250,7 +250,7 @@ def load_user_data():
 
 
 def main():
-    updater = Updater(token='6713741076:AAGnXknRCDWOOblqIvMAJW3v5aMSZBP21W8',
+    updater = Updater(token='6713741076:7064292796:AAG4oE2SN1bglSydg9App_kbkZPrSLBXkz8',
                       use_context=True)
     dispatcher = updater.dispatcher
     start_handler = CommandHandler('start', start)
